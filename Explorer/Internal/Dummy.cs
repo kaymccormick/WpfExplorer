@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Windows.Media;
@@ -15,7 +15,7 @@ namespace ExplorerCtrl.Internal
 
         public bool HasChildren { get { return false; } }
 
-        public string Name { get { return "Dummy"; } set { } }
+        public string Name { get { return "Dummy"; } }
 
         public string FullName { get { return "Dummy"; } }
 
